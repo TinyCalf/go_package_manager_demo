@@ -19,11 +19,10 @@ fi
 
 
 
-GoPATH="$workspace"
+GOPATH="$workspace"
 export GOPATH 
 
 cd "$prodir/$project"
 PWD="$prodir/$project"
 
 exec "$@"
-
